@@ -16,7 +16,7 @@ image:
   # -- image repository
   repository: redocly/redoc
   # @default -- chart.appVersion
-  tag: v2.0.0-rc.74
+  tag: v2.1.4
   # -- image pull policy
   pullPolicy: IfNotPresent
 
@@ -111,7 +111,7 @@ metrics:
       # -- image repository
       repository: ghcr.io/onedr0p/exportarr
       # -- image tag
-      tag: v1.3.1
+      tag: v2.0.1
       # -- image pull policy
       pullPolicy: IfNotPresent
     env:
